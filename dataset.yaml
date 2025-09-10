@@ -1,0 +1,14 @@
+# dataset.yaml
+# Path to your dataset folder (relative or absolute)
+path: ./datasheet
+
+# Folders inside 'dataset/images/' that contain training, validation, and test images
+train: images/train
+val: images/val
+test: images/test   # optional but recommended
+
+# Number of classes (snow leopard only → 1 class)
+nc: 1
+
+# Names of the classes
+names: ['snow_leopard']
